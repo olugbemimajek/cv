@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <p>Telephone: <a href="tel:+2348026065465">+234 802 606 5465</a></p>
+  <p>E-mail: <a href="mailto:olugbemimajek@gmail.com?subject=feedback">olugbemimajek@gmail.com</a></p>
+
+  <form id="form1" class="" action="contact_me.html" method="get" autocomplete="on">
+    <button type="button" name="button" onclick="alert('Hello yall')">Click Me!</button><br>
+    <label for="location">State of Origin</label><br>
+    <input list="location" name="" value="">
+    <datalist id="location" class="">
+      <option value="Ogun State">
+      <option value="Lagos State">
+      <option value="Ondo State">
+      <option value="Oyo State">
+    </datalist><br>
+    <label for="sname">Surname:</label><br>
+    <input type="text" name="surname" value="" id="sname"><br><br>
+    <label for="fname">First Name:</label><br>
+    <input id="fname" type="text" name="firstname" value=""><br><br>
+    <label for="password">Password:</label><br>
+    <input id="password" type="password" name="" value="" maxsize="4"><br><br>
+    <label for="dob">Date of Birth:</label><br>
+    <input id="dob" type="date" name="" value=""><br><br>
+    <p>SELECT ONE</p>
+    <label for="html">HTML</label>
+    <input id="html" type="radio" name="fav_lang" value="HTML"><br>
+    <label for="css">CSS</label>
+    <input id="css" type="radio" name="fav_lang" value="CSS"><br>
+    <h3>Section 2</h3>
+    <label for="color_hair">Hair Color</label><br>
+    <select id="color_hair" class="" name="">
+      <option value="white">White</option>
+      <option value="black">Black</option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="orange">Orange</option>
+
+    </select><br>
+
+
+  </form>
+  <label for="comments">Comments</label><br>
+  <textarea id="comments" name="eg" rows="8" cols="80">Additional comments</textarea><br>
+  <input form="form1" type="submit" name="" value="Submit"><br>
+</body>
+
+</html>
